@@ -53,7 +53,7 @@ In development environment, mails are "caught" by MailCatcher. You can see all t
 
 **NOTE: Assuming you have provisioned the box with the default RAILS_ENV=development.**
 
-The directory **/home/computers/computers** in the box is a *symlink* to **/vagrant/computers**, which is a synced folder in the your local machine's **vagrant-computers** folder.
+The directory **/home/computers/computers** is a synced folder in the your local machine's **vagrant-computers** folder.
 You can make changes on your local machine in **vagrant-computers/computers** folder and it is changed in the vagrant box too. 
 
 ## Running unit tests
