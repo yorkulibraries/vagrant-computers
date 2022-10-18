@@ -39,14 +39,6 @@ vagrant up
 
 Watch for any error/failed tasks. If all is good then the instance is ready to use for testing.
 
-Apache auth_basic is used for Basic Authentication. The default users for the 3 roles: Admin, Manager, and Staff are:
-
-```
-admin/demo
-manager/demo
-staff/demo
-```
-
 Edit /etc/hosts and add an entry like followed so you can access the app from a browser at http://computers.me.ca/
 
 ```
